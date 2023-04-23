@@ -1,6 +1,6 @@
-# 欢迎来到MkDocs23333
+# 欢迎来到MkDocs
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).?
+For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
 ## Commands
 
@@ -15,3 +15,9 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).?
     docs/
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
+nav:
+  - Section:
+    - section/index.md 
+    - Page 1: section/page-1.md
+    ...
+    - Page n: section/page-n.md
