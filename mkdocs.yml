@@ -1,4 +1,7 @@
 site_name: E2 Docs
+av:
+    - 主页: index.md
+    - 关于: about.md
 theme:
   name: material
   features:
